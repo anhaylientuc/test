@@ -7,5 +7,5 @@ import Hello from "./components/Hello";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Hello />
-  </StrictMode>,
+  </StrictMode>
 );
