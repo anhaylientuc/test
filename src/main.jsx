@@ -4,11 +4,13 @@ import { createRoot } from "react-dom/client";
 //import App from "./App.jsx";
 import Hello from "./components/Hello";
 import HelloNAame from "./components/HelloNAame";
+import Goodbye from "./components/Goodbye";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Hello />
     <Hello />
     <HelloNAame />
+    <Goodbye />
   </StrictMode>,
 );
