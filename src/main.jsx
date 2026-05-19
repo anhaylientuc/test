@@ -8,6 +8,7 @@ import HelloNAame from "./components/HelloNAame";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Hello />
+    <Hello />
     <HelloNAame />
   </StrictMode>,
 );
